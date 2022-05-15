@@ -29,15 +29,17 @@ const Home = () => {
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
                 <div className='button'>
-                  <a className='btn_shadow' href="https://www.facebook.com/carlosjesus.oleadiaz">
-                    <i class='fab fa-facebook-f'></i>
-                  </a>
-                  <a className='btn_shadow' href="https://www.instagram.com/carlos_olea_3/">
-                    <i class='fab fa-instagram'></i>
-                  </a>
-                  <a className='btn_shadow' href="https://www.linkedin.com/in/carlos-olea-5a493a22a/">
-                    <i class='fab fa-linkedin-in'></i>
-                  </a>
+                  <button id="facebook" className='btn_shadow'>
+                    <a  href="https://www.facebook.com/carlosjesus.oleadiaz" ><i class='fab fa-facebook-f'></i> </a>
+                  </button>
+                  <button className='btn_shadow' >
+                  <a  href="https://www.instagram.com/carlos_olea_3/" > <i class='fab fa-instagram'></i></a>
+                   
+                  </button>
+                  <button className='btn_shadow' >
+                  <a href="https://www.linkedin.com/in/carlos-olea-5a493a22a/" ><i class='fab fa-linkedin-in'></i></a>
+                   
+                  </button>
                 </div>
               </div>
               <div className='col_1'>
