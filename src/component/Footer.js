@@ -1,5 +1,5 @@
 import React from "react"
-import logo1 from "./pic/f_logo.png"
+import logo1 from "./pic/logo.png"
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
           <div className='img'>
             <img src={logo1} alt='' />
           </div>
-          <p>© 2021. All rights reserved by GorkCoder-Themes.</p>
+          <p>no se que poner </p>
         </div>
       </footer>
     </>
