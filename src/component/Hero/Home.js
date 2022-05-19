@@ -19,7 +19,7 @@ const Home = () => {
             <h2>
               a
               <span>
-                <Typewriter words={[" Professional Coder.", " Developer."]} loop true cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" Professional Coder.", " Developer.",]} loop true cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
 
@@ -28,10 +28,12 @@ const Home = () => {
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
-                <div className='button'>
+                <div className='button'> 
+                <a  href="https://www.facebook.com/carlosjesus.oleadiaz" >
                   <button id="facebook" className='btn_shadow'>
-                    <a  href="https://www.facebook.com/carlosjesus.oleadiaz" ><i class='fab fa-facebook-f'></i> </a>
+                   <i class='fab fa-facebook-f'></i> 
                   </button>
+                  </a>
                   <button className='btn_shadow' >
                   <a  href="https://www.instagram.com/carlos_olea_3/" > <i class='fab fa-instagram'></i></a>
                    
